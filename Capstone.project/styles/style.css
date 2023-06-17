@@ -1,0 +1,35 @@
+.path {
+    stroke-dasharray: 1000;
+    stroke-dashoffset: 2000;
+    animation: dash 30s linear alternate infinite;
+  }
+  
+  @keyframes dash {
+    from {
+      stroke-dashoffset: 800;
+    }
+    to {
+      stroke-dashoffset: 0;
+    }
+  }
+
+  svg {position: absolute;
+    left: 500px;
+    top: 40%; }
+
+.title {
+  position: fixed;
+        width: 320px;
+        padding: 10px;
+        margin: 0;
+        font-size: 12px;
+      }
+
+.RightSiteTitle {
+    position: absolute;
+    left: 48%;
+    top: 22%;
+    font-size: 100px;
+    font-family: 'VT323', monospace;
+    
+}
