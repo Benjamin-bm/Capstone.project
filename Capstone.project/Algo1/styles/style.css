@@ -38,7 +38,7 @@ font-size: 40px;
     position: absolute;
     left: 48%;
     top: 22%;
-    font-size: 100px;
+    font-size: 50px;
     font-family: 'VT323', monospace;
     
 }
@@ -51,3 +51,28 @@ font-size: 40px;
   top: 2%;
 
 }
+
+.box1 {
+  position: absolute;
+  left: 0%;
+  top: 38%;
+  padding: 10px;
+  margin: 0;
+  font-size: 30px;
+  }
+
+  .flex-container {
+    position: absolute;
+top: 45%;
+    display: flex;
+    background-color: rgb(118, 162, 158);
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  
+  .flex-container > div {
+    background-color: #f1f1f1;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+  }
