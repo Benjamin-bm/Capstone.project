@@ -36,8 +36,8 @@ font-size: 40px;
 
 .RightSiteTitle {
     position: absolute;
-    left: 48%;
-    top: 22%;
+    left: 35%;
+    top: 10%;
     font-size: 50px;
     font-family: 'VT323', monospace;
     
@@ -63,17 +63,26 @@ font-size: 40px;
 
   .flex-container {
     position: absolute;
-top: 45%;
+top: 75%;
+margin-left: 20px;
+margin-right: 100px;
+
     display: flex;
-    background-color: rgb(118, 162, 158);
+    background-color: rgb(237, 242, 249);
     flex-direction: column;
     flex-wrap: wrap;
     font-family: 'barlow';
   }
   
   .flex-container > div {
-    background-color: #f1f1f1;
+    background-color: #ffffff;
     margin: 10px;
     padding: 20px;
     font-size: 30px;
   }
+
+  .title3 {
+  font-family: 'barlow';
+  font-size: 45px;
+  margin-left: 20px;
+}
