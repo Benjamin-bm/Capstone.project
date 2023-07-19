@@ -14,8 +14,8 @@
   }
 
   svg {position: absolute;
-    left: 500px;
-    top: 40%; }
+    left: 600px;
+    top: 38%; }
 
 .title1 {
   position: fixed;
@@ -37,8 +37,8 @@ font-family: 'barlow';
 
 .RightSiteTitle {
     position: absolute;
-    left: 48%;
-    top: 22%;
+    left: 45%;
+    top: 18%;
     font-size: 100px;
     font-family: 'VT323', monospace;
     
