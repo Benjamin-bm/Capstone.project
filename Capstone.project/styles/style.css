@@ -14,8 +14,8 @@
   }
 
   svg {position: absolute;
-    left: 600px;
-    top: 38%; }
+    left: 45%;
+    top: 34%; }
 
 .title1 {
   position: fixed;
@@ -27,26 +27,47 @@
 
 .title2 {
 position: absolute;
-left: 0%;
-top: 38%;
+left: 1%;
+top: 29%;
 padding: 10px;
 margin: 0;
-font-size: 40px;
+font-size: 28px;
 font-family: 'barlow';
 }
 
 .RightSiteTitle {
     position: absolute;
-    left: 45%;
-    top: 18%;
-    font-size: 100px;
+    left: 38%;
+    top: 14%;
+    font-size: 80px;
     font-family: 'VT323', monospace;
     
 }
 
 .button1 { 
   position: absolute;
-  left: 80%;
+  left: 90%;
   top: 2%;
+
+}
+
+a {
+  color: #000000;
+  text-decoration: none;
+}
+
+a:hover {
+  color:#00A0C6; 
+  text-decoration:none; 
+  cursor:pointer;  
+}
+
+.undertitle1 {
+position: absolute;
+left: 35%;
+top: 85%;
+font-size: 40px;
+font-family: 'VT323', monospace;
+text-align: center;
 
 }
