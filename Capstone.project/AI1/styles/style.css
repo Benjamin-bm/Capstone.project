@@ -18,7 +18,7 @@
     top: 40%; }
 
 .title1 {
-  position: fixed;
+  position: absolute;
         width: 320px;
         padding: 10px;
         margin: 0;
@@ -34,18 +34,10 @@ margin: 0;
 font-size: 40px;
 }
 
-.title3  {
-font-family: "barlow";
-font-size: 25px;
-margin-left: 80px;
-
-
-}
-
 .RightSiteTitle {
     position: absolute;
-    left: 44%;
-    top: 2%;
+    left: 35%;
+    top: 10%;
     font-size: 50px;
     font-family: 'VT323', monospace;
     
@@ -71,16 +63,15 @@ margin-left: 80px;
 
   .flex-container {
     position: absolute;
-top: 45%;
+top: 50%;
 margin-left: 80px;
 margin-right: 200px;
 
     display: flex;
-    background-color: rgb(255, 198, 112);
+    background-color: rgb(237, 242, 249);
     flex-direction: column;
     flex-wrap: wrap;
     font-family: 'barlow';
-
   }
   
   .flex-container > div {
@@ -89,3 +80,9 @@ margin-right: 200px;
     padding: 22px;
     font-size: 20px;
   }
+
+  .title3 {
+  font-family: 'barlow';
+  font-size: 30px;
+  margin-left: 80px;
+}
