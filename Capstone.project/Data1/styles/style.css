@@ -34,9 +34,17 @@ margin: 0;
 font-size: 40px;
 }
 
+.title3  {
+font-family: "barlow";
+font-size: 25px;
+margin-left: 80px;
+
+
+}
+
 .RightSiteTitle {
     position: absolute;
-    left: 48%;
+    left: 44%;
     top: 2%;
     font-size: 50px;
     font-family: 'VT323', monospace;
@@ -64,6 +72,8 @@ font-size: 40px;
   .flex-container {
     position: absolute;
 top: 45%;
+margin-left: 80px;
+margin-right: 200px;
     display: flex;
     background-color: rgb(255, 198, 112);
     flex-direction: column;
@@ -74,6 +84,6 @@ top: 45%;
   .flex-container > div {
     background-color: #ffffff;
     margin: 10px;
-    padding: 20px;
-    font-size: 30px;
+    padding: 22px;
+    font-size: 20px;
   }
