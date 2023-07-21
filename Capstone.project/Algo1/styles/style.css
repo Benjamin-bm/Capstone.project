@@ -63,9 +63,9 @@ font-size: 40px;
 
   .flex-container {
     position: absolute;
-top: 75%;
-margin-left: 20px;
-margin-right: 100px;
+top: 50%;
+margin-left: 80px;
+margin-right: 200px;
 
     display: flex;
     background-color: rgb(237, 242, 249);
@@ -77,12 +77,12 @@ margin-right: 100px;
   .flex-container > div {
     background-color: #ffffff;
     margin: 10px;
-    padding: 20px;
-    font-size: 30px;
+    padding: 22px;
+    font-size: 20px;
   }
 
   .title3 {
   font-family: 'barlow';
-  font-size: 45px;
-  margin-left: 20px;
+  font-size: 30px;
+  margin-left: 80px;
 }
