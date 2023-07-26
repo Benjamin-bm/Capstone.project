@@ -1,0 +1,88 @@
+.path {
+    stroke-dasharray: 1000;
+    stroke-dashoffset: 2000;
+    animation: dash 30s linear alternate infinite;
+  }
+  
+  @keyframes dash {
+    from {
+      stroke-dashoffset: 800;
+    }
+    to {
+      stroke-dashoffset: 0;
+    }
+  }
+
+  svg {position: absolute;
+    left: 500px;
+    top: 40%; }
+
+.title1 {
+  position: absolute;
+        width: 320px;
+        padding: 10px;
+        margin: 0;
+        font-size: 12px;
+      }
+
+.title2 {
+position: absolute;
+left: 0%;
+top: 38%;
+padding: 10px;
+margin: 0;
+font-size: 40px;
+}
+
+.RightSiteTitle {
+    position: absolute;
+    left: 35%;
+    top: 10%;
+    font-size: 50px;
+    font-family: 'VT323', monospace;
+    
+}
+
+.button1 { 
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  left: 80%;
+  top: 2%;
+
+}
+
+.box1 {
+  position: absolute;
+  left: 0%;
+  top: 38%;
+  padding: 10px;
+  margin: 0;
+  font-size: 30px;
+  }
+
+  .flex-container {
+    position: absolute;
+top: 40%;
+margin-left: 80px;
+margin-right: 200px;
+
+    display: flex;
+    background-color: rgb(237, 242, 249);
+    flex-direction: column;
+    flex-wrap: wrap;
+    font-family: 'barlow';
+  }
+  
+  .flex-container > div {
+    background-color: #ffffff;
+    margin: 10px;
+    padding: 22px;
+    font-size: 20px;
+  }
+
+  .title3 {
+  font-family: 'barlow';
+  font-size: 30px;
+  margin-left: 80px;
+}
